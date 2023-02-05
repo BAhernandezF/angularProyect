@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AppComponent } from './app.component';
 import { DirectivaComponent } from './directiva/directiva.component';
 import { ClientesComponent } from './clientes/clientes.component';
+import { AutomovilComponent } from './automovil/automovil.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { ClientesComponent } from './clientes/clientes.component';
     HeaderComponent,
     FooterComponent,
     DirectivaComponent,
-    ClientesComponent
+    ClientesComponent,
+    AutomovilComponent,
   ],
   imports: [
     BrowserModule

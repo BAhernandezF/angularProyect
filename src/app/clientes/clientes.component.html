@@ -13,12 +13,12 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let cliente of clientes">
-                    <td>{{cliente.id}}</td>
-                    <td>{{cliente.nombre}}</td>
-                    <td>{{cliente.apellido}}</td>
-                    <td>{{cliente.email}}</td>
-                    <td>{{cliente.createAt}}</td>
+                <tr *ngFor="let item of clientes">
+                    <td>{{item.id}}</td>
+                    <td>{{item.nombre}}</td>
+                    <td>{{item.apellido}}</td>
+                    <td>{{item.email}}</td>
+                    <td>{{item.createAt}}</td>
                 </tr>
             </tbody>
         </table>
